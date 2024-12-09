@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    box-shadow: 1px 1px 4px;
+}
+
+.icon{
+    position: absolute;
+    right: 2vw;
+    top: 1.8vh;
+}
+
+.count{
+    margin: 0 42vw;
+}
+
+.display{
+    margin: 0 46.6vw;
+    margin-top: 1.8vh;
+    font-size: 200%;
+    font-weight: 950;
+}
+
+.buttons{
+    display: flex;
+    position: relative;
+    left: 43.6%;
+    gap: 5px;
+    margin-top: 4.5vh;
+
+}
+
+.btn1{
+    width: 40px;
+    height: 34px;     
+}
+
+.btn2{
+    width: 40px;
+    height: 34px;
+}
+
+.info{
+    display: flex;
+    position: relative;
+    left: 36%;
+}
+
+.para{
+    margin-top: 1.9vh;
+}
+
+.changeBy{
+    height: 3vh;
+    width: 4.6vw;
+    margin-top: 1.8vh;
+}
+
+.reset-btn{
+    margin-left: 44vw;
+    margin-top: 2vh;
+    height: 7vh;
+    width: 7vw;
+}
+
+.btn_bg{
+    background-color: aqua;
+    border: 1px solid black;
+}
